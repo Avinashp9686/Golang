@@ -3,7 +3,7 @@ import(
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"net//http"
+	"net/http"
 )
 type Post struct{
 	UserID int 'json:"userId"'
